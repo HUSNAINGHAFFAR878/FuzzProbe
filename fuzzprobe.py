@@ -11,7 +11,6 @@ response changes in length, reflects the marker, contains error text,
 changes status code, or returns different JSON keys.
 
 Author : Husnain Ghaffar
-Project: PNY Trainings - Cyber Security Department (Final Project)
 Use    : ONLY on systems you own or have written permission to test
          (lab apps such as Juice Shop / DVWA in Docker).
 """

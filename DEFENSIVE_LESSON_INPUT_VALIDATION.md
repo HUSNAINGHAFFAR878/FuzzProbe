@@ -1,7 +1,7 @@
 # Defensive Lesson — Input Validation
 
-*One short note for the FuzzProbe final project (PNY Trainings, Cyber Security
-Department). The lesson comes from what the tool itself found.*
+*One short note for the FuzzProbe project. The lesson comes from what the
+tool itself found.*
 
 ## What input validation is
 

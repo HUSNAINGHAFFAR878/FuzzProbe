@@ -10,9 +10,6 @@
 ![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-purple)
 ![Use](https://img.shields.io/badge/Use-Lab%20Only-green)
 
-Final project — PNY Trainings, Cyber Security Department (Web Security,
-Intermediate). Instructor: Abdul Mannan. Deadline: 25 November 2026.
-
 ## What it does
 
 Many web applications accept parameters that appear nowhere in their pages —
