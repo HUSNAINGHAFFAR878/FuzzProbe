@@ -11,6 +11,7 @@ response changes in length, reflects the marker, contains error text,
 changes status code, or returns different JSON keys.
 
 Author : Husnain Ghaffar
+Docs   : README.md - usage, options and the sample lab report
 Use    : ONLY on systems you own or have written permission to test
          (lab apps such as Juice Shop / DVWA in Docker).
 """

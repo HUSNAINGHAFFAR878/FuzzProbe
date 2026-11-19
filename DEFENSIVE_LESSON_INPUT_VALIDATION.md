@@ -58,3 +58,6 @@ did not plan for, not just the ones on the form.
 *Validate on the server, allowlist what you accept, and never trust a
 parameter just because it is not on the page — if the server reads it, an
 attacker can send it.*
+
+*This note is based on the FuzzProbe lab run against OWASP Juice Shop, a
+training application that is made to be tested.*
