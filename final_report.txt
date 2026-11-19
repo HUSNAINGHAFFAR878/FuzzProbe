@@ -1,0 +1,24 @@
+================================================================
+FuzzProbe - HTTP Parameter Fuzzer - Scan Report
+================================================================
+Target      : http://127.0.0.1:3000/rest/products/search
+Method      : GET
+Wordlist    : fuzzprobe_params.txt
+Delay       : 0.3s   Timeout: 10s
+Started     : 2026-11-18 11:19:51
+
+[Baseline] (request with no extra parameters)
+  Status: 200   Length: 26963 bytes   Time: 0.065s
+
+[Candidate parameters] 1 found
+  * q
+      baseline : status 200, length 26963
+      test     : status 200, length 30, time 0.032s
+      marker   : fzp2njuskx
+      triggers : length 26963->30, json keys changed (-alternateImages, createdAt, deletedAt, deluxePrice, density)
+      value-fuzz: '"' -> length 30->11640, json keys changed (+alternateImages, createdAt, deletedAt, deluxePrice, density) (status 200, length 11640)
+      value-fuzz: '-1' -> length 30->924, json keys changed (+alternateImages, createdAt, deletedAt, deluxePrice, density) (status 200, length 924)
+      value-fuzz: '0' -> length 30->14723, json keys changed (+alternateImages, createdAt, deletedAt, deluxePrice, density) (status 200, length 14723)
+
+[Summary] candidates: 1   request errors logged: 0
+Note: run only on lab systems you own (Juice Shop / DVWA).
